@@ -6,7 +6,7 @@ This Bash script allows you to greet the user with customizable messages. You ca
 ## Usage:
 - Run the script without any command-line arguments:
   ```bash
-  ./greeting_script.sh
+  ./conditionals.sh
 
 ## Instructions:
 - When you run the script, it will prompt you with the question: "How many times should I greet?"
@@ -20,7 +20,7 @@ This Bash script allows you to greet the user with customizable messages. You ca
 ## Example 
 `bash`
 ```
-$ ./greeting_script.sh
+$ ./conditionals.sh
 How many times should I greet?
 4
 Nice to meet you!
