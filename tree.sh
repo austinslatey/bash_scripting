@@ -14,4 +14,6 @@ fi
 
 # ls -R print recursively
 # Code: pipe this command to filter for directories
-ls -R 
+ls -R | grep ":$" | sed -e 's/:$//' -e 's/[^-][^\/]*\//--/g' -e 's/^/   /' -e 's/-/|/'
+
+echo
